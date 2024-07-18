@@ -1,0 +1,9 @@
+﻿  Collidable.cpp
+C:\Users\fko2347038\Desktop\由比先生の授業用\03_YuiLib_MoveDebug\Collidable.cpp(8,61): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347038\Desktop\由比先生の授業用\03_YuiLib_MoveDebug\Collidable.cpp(8,57): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347038\Desktop\由比先生の授業用\03_YuiLib_MoveDebug\Collidable.cpp(8,33): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
+  DebugDraw.cpp
+  Enemy.cpp
+  Player.cpp
+  コードを生成中...
+  MyDxLibGame2D.vcxproj -> C:\Users\fko2347038\Desktop\由比先生の授業用\03_YuiLib_MoveDebug\Debug\YuiLib.exe

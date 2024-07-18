@@ -1,0 +1,15 @@
+﻿  Collidable.cpp
+C:\Users\fko2347038\Desktop\由比先生の授業用\07-1_YuiLib_LineHit_Abstruct\Collidable.h(26,3): warning C4091: 'static ': 変数が何も宣言されていないときは、'YuiLib::Collidable::Priority' の左辺を無視します。
+  ColliderDataBase.cpp
+  Enemy.cpp
+C:\Users\fko2347038\Desktop\由比先生の授業用\07-1_YuiLib_LineHit_Abstruct\Collidable.h(26,3): warning C4091: 'static ': 変数が何も宣言されていないときは、'YuiLib::Collidable::Priority' の左辺を無視します。
+  Physics.cpp
+C:\Users\fko2347038\Desktop\由比先生の授業用\07-1_YuiLib_LineHit_Abstruct\Collidable.h(26,3): warning C4091: 'static ': 変数が何も宣言されていないときは、'YuiLib::Collidable::Priority' の左辺を無視します。
+  Player.cpp
+C:\Users\fko2347038\Desktop\由比先生の授業用\07-1_YuiLib_LineHit_Abstruct\Collidable.h(26,3): warning C4091: 'static ': 変数が何も宣言されていないときは、'YuiLib::Collidable::Priority' の左辺を無視します。
+  SystemWall.cpp
+C:\Users\fko2347038\Desktop\由比先生の授業用\07-1_YuiLib_LineHit_Abstruct\Collidable.h(26,3): warning C4091: 'static ': 変数が何も宣言されていないときは、'YuiLib::Collidable::Priority' の左辺を無視します。
+  main.cpp
+C:\Users\fko2347038\Desktop\由比先生の授業用\07-1_YuiLib_LineHit_Abstruct\Collidable.h(26,3): warning C4091: 'static ': 変数が何も宣言されていないときは、'YuiLib::Collidable::Priority' の左辺を無視します。
+  コードを生成中...
+  MyDxLibGame2D.vcxproj -> C:\Users\fko2347038\Desktop\由比先生の授業用\07-1_YuiLib_LineHit_Abstruct\Debug\YuiLib.exe

@@ -34,10 +34,10 @@ Camera::~Camera()
 void Camera::Update(const Input& input, const Player& player, const Stage& stage)
 {
 	// パッドの３ボタンか、シフトキーが押されている場合のみ角度変更操作を行う
-	if (CheckHitKey(KEY_INPUT_LSHIFT) || (input.GetNowFrameInput() & PAD_INPUT_C))
-	{
+	//if (CheckHitKey(KEY_INPUT_LSHIFT) || (input.GetNowFrameInput() & PAD_INPUT_C))
+	//{
 		// 「←」ボタンが押されていたら水平角度をマイナスする
-		if (input.GetNowFrameInput() & PAD_INPUT_LEFT)
+		if (input.GetNowFrameInput() & PAD_INPUT_5)
 		{
 			angleH -= AngleSpeed;
 
@@ -49,7 +49,7 @@ void Camera::Update(const Input& input, const Player& player, const Stage& stage
 		}
 
 		// 「→」ボタンが押されていたら水平角度をプラスする
-		if (input.GetNowFrameInput() & PAD_INPUT_RIGHT)
+		if (input.GetNowFrameInput() & PAD_INPUT_6)
 		{
 			angleH += AngleSpeed;
 
@@ -61,29 +61,29 @@ void Camera::Update(const Input& input, const Player& player, const Stage& stage
 		}
 
 		// 「↑」ボタンが押されていたら垂直角度をマイナスする
-		if (input.GetNowFrameInput() & PAD_INPUT_UP)
-		{
-			angleV -= AngleSpeed;
+		//if (input.GetNowFrameInput() & PAD_INPUT_UP)
+		//{
+		//	angleV -= AngleSpeed;
 
-			// ある一定角度以下にはならないようにする
-			if (angleV < -DX_PI_F * 0.5f + 0.6f)
-			{
-				angleV = -DX_PI_F * 0.5f + 0.6f;
-			}
-		}
+		//	// ある一定角度以下にはならないようにする
+		//	if (angleV < -DX_PI_F * 0.5f + 0.6f)
+		//	{
+		//		angleV = -DX_PI_F * 0.5f + 0.6f;
+		//	}
+		//}
 
-		// 「↓」ボタンが押されていたら垂直角度をプラスする
-		if (input.GetNowFrameInput() & PAD_INPUT_DOWN)
-		{
-			angleV += AngleSpeed;
+		//// 「↓」ボタンが押されていたら垂直角度をプラスする
+		//if (input.GetNowFrameInput() & PAD_INPUT_DOWN)
+		//{
+		//	angleV += AngleSpeed;
 
-			// ある一定角度以上にはならないようにする
-			if (angleV > DX_PI_F * 0.5f - 0.6f)
-			{
-				angleV = DX_PI_F * 0.5f - 0.6f;
-			}
-		}
-	}
+		//	// ある一定角度以上にはならないようにする
+		//	if (angleV > DX_PI_F * 0.5f - 0.6f)
+		//	{
+		//		angleV = DX_PI_F * 0.5f - 0.6f;
+		//	}
+		//}
+	//}
 
 	// カメラの注視点はプレイヤー座標から規定値分高い座標
 	target = VAdd(player.GetPosition(), VGet(0.0f, CameraPlayerTargetHeight, 0.0f));
